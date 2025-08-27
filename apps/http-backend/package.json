@@ -8,9 +8,11 @@
     "dev": "npm run build && npm run start"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
     "@repo/backend-common": "workspace:*",
     "@repo/common": "workspace:*",
+    "@repo/db": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.3"
   },
   "type": "module",
@@ -20,6 +22,7 @@
   "description": "",
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
+    "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2"
   }
